@@ -1,0 +1,28 @@
+body{
+    background-color:#131A28;
+}
+.container{
+   
+  display: grid;
+  grid:85px 85px 85px / 85px 85px 85px ;
+  gap: 5px;
+  margin: 50px auto;
+  background-color: #131A28;
+  width:calc(3*85px + 2* 5px);
+  height:calc(3*85px + 2* 5px) ;
+}
+.container > div{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    background-color:white;
+    border-radius:20px;
+    }
+    .container p{
+        color: white;
+        font-size:4em;
+        padding-left:90px;
+    }
+.winner{
+    background-color: #1CDBF5 !important;
+}
